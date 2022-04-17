@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page" id="page">
+        <header>
+            <div class="header_inner">
+                <div class="header__logo">
+                    <img class="pixel-logo" src="./images/Logo.png" alt="logo">
+                    <h2 class="pixel-text">Pixel Studio</h2>
+                </div>
+                <nav class="nav" id="nav">
+
+                    <a class="nav_link" href="#page">Home</a>
+					<a class="nav_link" href="#">Portfolio</a>
+					<a class="nav_link" href="#">My work</a>
+					<a class="nav_link" href="#about">About me</a>
+					<a class="nav_link" href="#">Element</a>
+                    <a class="nav_link" href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <div id="welcome" class="inner-wrapper">
+                <h1>Welcome!</h1>
+                <hr>
+                <div class="image-carousel">
+                    <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
+                    <img src="./images/carousel-origin.png" alt="carousel image">
+                    <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button>
+                    <div class="image-text-left">Magic grape</div>
+                    <div class="image-text-numbers">1/3</div>
+                </div>
+                <h2>Welcome to <strong>PixelStudio</strong></h2>
+                <div class="welcome__text">
+                    <p class="welcome__paragraph">From a designer's perspective, it's all about downloads. Some fonts are tightly held intellectual property with very intentionally limited sharing. So, at a minimum, a Typography page must provide direct download or instructions on how to get approval to obtain them. Most teams provide a downloadable ZIP that includes all the files you need to install and use fonts locally. Headings are a critical contributor to page hierarchy. Most systems offer at least four, although some offer many more. Page titles usually (but not always) align with the largest heading level.</p>
+
+                    <p class="welcome__paragraph">Additionally, some systems offer specialized headers outside the typical heading scale, such as a picture's caption or an eyebrow <strong>Morningstar Design System</strong>. Just because a header exists outside the traditional scale doesn't mean it's not a header viably reused across a catalog.
+                    </p>
+                </div>
+
+                <div class="welcome__three">
+                    <div class="welcome__three-item">
+                        <div>
+                            <img src="./images/Combined-Shape-(2).jpg" alt="what I do">
+                            <h3>What I do?</h3>
+                        </div>
+                        <p class="welcome-three-text">A misconception | debunk early and often: developing a typography
+                            system for UI components is
+                            equivalent to solving.
+                        </p>
+                    </div>
+                    <div class="welcome__three-item">
+                        <div>
+                            <img src="./images/Combined-Shape-(1).jpg" alt="Who I Do">
+                            <h3>Who I do it?</h3>
+                        </div>
+                        <p class="welcome-three-text">Article typography is made of headings, body text, and a few other
+                            components like an captioned
+                            image.
+                        </p>
+                    </div>
+                    <div class="welcome__three-item">
+                        <div>
+                            <img src="./images/Combined-Shape.jpg" alt="About me">
+                            <h3>About me</h3>
+                        </div>
+                        <p class="welcome-three-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                            nihil
+                            impedit quo minus id quod maxime placeat.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="about" class="inner-wrapper">
+                <h1>About me</h1>
+                <hr>
+
+                <div class="flicker-images">
+                    <h2>From Flicker</h2>
+                    <div class="images-container">
+                        <div class="images-row">
+                            <div class="image-flicker"><img src="./images/Group-2.jpg" alt="Flicker Image"></div>
+                            <div class="image-flicker"><img src="./images/Group-5.jpg" alt="Flicker Image"></div>
+                            <div class="image-flicker"><img src="./images/Group-6.jpg" alt="Flicker Image"></div>
+                        </div>
+                        <div class="images-row">
+                            <div class="image-flicker"><img src="./images/Group-7.jpg" alt="Flicker Image"></div>
+                            <div class="image-flicker"><img src="./images/Group-8.jpg" alt="Flicker Image"></div>
+                            <div class="image-flicker"><img src="./images/Group-9.jpg" alt="Flicker Image"></div>
+                        </div>
+                    </div>
+
+                    <div class="about-links">
+                        <h2>Links</h2>
+                        <div class="links-container">
+                            <ul class="links-list">
+                                <li class="links-list-item">Themeforest</li>
+                                <li class="links-list-item">GraphicRiver</li>
+                                <li class="links-list-item">CodeCanyon</li>
+                                <li class="links-list-item">ActiveDen</li>
+                                <li class="links-list-item">3DOcean</li>
+                                <li class="links-list-item">VideoHive</li>
+                                <li class="links-list-item">Audiojungle</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="about paragr">Applying heading scales shouldn't require use of a specific HTML element.
+                    Instead,
+                    tease apart the two concerns. A system should <a href="#">weave</a> heading levels consistently
+                    throughout components and offers tools for adopters to do the same with their custom creations. In
+                    particular, line-height is challenging. In some libraries, we'll use conventions and tools to crop
+                    away
+                    negative space established by line-height from all text included in components, as described in <a
+                        href="#">Space in Design Systems</a>. Libraries cropping line height include Morningstar Design
+                    System, Discovery Education's Comet Design System.</p>
+                <div id="quotes">
+                    <ul>
+                        <li class="quote-text quotes__first">      
+                            <img class="quote-icon" src="./images/a-icon-quote.png" alt="quote icon">
+                            <div>Advantages for the customers: using the same design language for the complex interface, or even different digital channels, results in product consistency and the reduction of cognitive load for the users.</div>
+                        </li>
+                        <li class="quote-text quotes__second">
+                            <img class="quote-icon" src="./images/a-icon-quote.png" alt="quote icon">
+                            <div>This is our journey to the the simplest and most beautiful banking design in the world, as we see it. Light Bank was created by the UXDA team in order to inspire change.</div>
+                        </li>
+                        <li class="quote-text quotes__third">
+                            <img class="quote-icon" src="./images/a-icon-quote.png" alt="quote icon">
+                            <div>We encourage you to go one step further beyond average and create the best financial solutions that your customers are seeking. We hope you can use this UX design case study as a guide to get there.</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="heading-levels">
+                    <h2>Heading Levels and Special Cases</h2>
+                    <p class="heading__text paragr">Systems can offer centrally-tuned responsive type sizes across a
+                        predictable set of breakpoints. For body text, size increases slowly. As a system gets started
+                        with
+                        type, dig into details and start some conventions, such as how you'll cope with line-height.
+                        However, avoid finalizing all rules before making the first thing. Instead, be comfortable with
+                        chaos early and smooth details as a library takes shape. As you near a major release, lock in
+                        conventions and ensure tools are consistently applied.</p>
+                </div>
+
+                <div class="about-checklist">
+                    <h2>Text color</h2>
+                    <ul>
+                        <li class="about-checlist-item"><p><strong>Primary</strong>, for most interface text whether body or heading.</p></li>
+                        <li class="about-checlist-item"><p><strong>Secondary</strong>, for diminished contrast (often, the “gray text”) for supplemental information.</p></li>
+                        <li class="about-checlist-item"><p><strong>Interactive</strong>, not just for links but also flat buttons, tab labels, and more.</p></li>
+                        <li class="about-checlist-item"><p><strong>Disabled</strong>, often resulting is especially lower contrast treatments.</p></li>
+                        <li class="about-checlist-item"><p><strong>An invitation</strong> to contact a technical architect, since a license for the font is required. Organizations requires this to control the recurring and often non-trivial cost of hosting and serving the font.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="contact">
+                <h1>Contact</h1>
+                <hr>
+                <div class="contact-info">
+                    <h2>Contact information</h2>
+                    <p>Feel free to contact us for any of your questions, we'll get back to you as soon as possible</p>
+
+                    <div class="contact-info-text">
+                        <div class="contact-text-row">
+                            <img src="./images/home-icon.png" alt="home icon">
+                            <div class="contact-info-item">Company name</div>
+                            <div class="contact-info-item second">798 Street name</div>
+                            <div class="contact-info-item">999 00 City name</div>
+                        </div>
+                        <div class="contact-text-row">
+                            <img src="./images/phone-icon.png" alt="phone icon">
+                            <div class="contact-info-item">Phone: +000 987 654 321</div>
+                        </div>
+                        <div class="contact-text-row">
+                            <img src="./images/email-icon.png" alt="email icon">
+                            <div class="contact-info-item">Email : <a href="mailto:sales@yourcompany.com">sales@yourcompany.com</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Just say hello</h2>
+
+                <form class="form" action="/my-handling-form-page" method="post">
+                    <div class="form-wrapper">
+                        <div class="form-inputs">
+                            <label for="name">First name*</label>
+                            <input type="text" id="name" name="user_name" placeholder="John">
+                        </div>
+                        <div class="form-inputs">
+                            <label for="lastname">Last name*</label>
+                            <input type="text" id="lastname" name="user_lastname" placeholder="Johnson">
+                        </div>
+                    </div>
+
+                    <div class="form-wrapper">
+                        <div class="form-inputs">
+                            <label for="email">Email*</label>
+                            <input type="text" id="email" name="user_email" placeholder="example@email.com">
+                        </div>
+                        <div class="form-inputs">
+                            <label for="phone">Phone*</label>
+                            <input id="phone" name="user_phone" placeholder="+ 000 123 456 789">
+                        </div>
+                    </div>
+
+                    <div class="form-choose">
+                        <p>Choose option</p>
+                        <div>
+                            <p><input class="radio_input" type="radio" name="agree" id="radio1" value="yes">
+                                <label class="radio_label" for="radio1">Male</label></p>
+                        </div>
+                        <div>
+                            <p><input class="radio_input" type="radio" name="agree" id="radio2" value="yes">
+                                <label class="radio_label" for="radio2">Female</label></p>
+                        </div>
+                        <div>
+                            <p><input class="radio_input" type="radio" name="agree" id="radio3" value="yes">
+                                <label class="radio_label" for="radio3">Other</label></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <textarea id="message" name="message" placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="checkbox">
+                        <label class="checkbox_label" for="terms_checkbox">
+                            <input type="checkbox" class="terms-checkbox" id="terms_checkbox" name="terms">
+                            Terms & Conditions
+                        </label>
+                    </div>
+
+                    <button class="btn" type="submit">Submit</button>
+                </form>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-wrapper">
+                <div class="footer-container">
+                    <div class="social">
+                        <div class="header__logo">
+                            <h2 class="pixel-text">Pixel Studio</h2>
+                        </div>
+                        <div>A true business companion a true business companion a true business companion A true business
+                            companion a true business companion a true business companion</div>
+                        <div>
+                            <p>SOCIAL</p>
+                        </div>
+                        <div class="social-icons">
+                            <img class="social-icon" src="./images/a-icon-youtube.png" alt="youtube icon">
+                            <img class="social-icon" src="./images/a-icon-linkedin.png" alt="linkedin icon">
+                            <img class="social-icon" src="./images/a-icon-twitter-hover.png" alt="twitter icon">
+                            <img class="social-icon" src="./images/a-icon-facebook.png" alt="facebook icon">
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <div class="footer-smalltext">
+                            <div>FEATURES</div>
+                            <ul class="footer-list">
+                                <li><a href="#">Engagement</a></li>
+                                <li><a href="#">Retention</a></li>
+                                <li><a href="#">Funnel</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <div class="footer-smalltext">
+                            <div>
+                                <div>RESOURCES</div>
+                            </div>
+                            <ul class="footer-list">
+                                <li><a href="#">Enterprice</a></li>
+                                <li><a href="#">SaaS</a></li>
+                                <li><a href="#">Financial services</a></li>
+                                <li><a href="#">Consumer Tech</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <div class="footer-smalltext">
+                            <div>
+                                <div>Menu</div>
+                            </div>
+                            <ul class="footer-list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">My work</a></li>
+                                <li><a href="#">About me</a></li>
+                                <li><a href="#">Element</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <div class="footer-smalltext">
+                            <div>
+                                <div>INFORMATION</div>
+                            </div>
+                            <ul class="footer-list">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">User's guide</a></li>
+                                <li><a href="#">Support center</a></li>
+                                <li><a href="#">Press info</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
